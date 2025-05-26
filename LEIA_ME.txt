@@ -1,0 +1,12 @@
+Para visualizar corretamente o vídeo com legenda:
+
+1. Abra a pasta do trabalho no Visual Studio Code.
+2. Clique com o botão direito no arquivo HTML.
+3. Selecione "Open with Live Server".
+4. A legenda será carregada corretamente.
+
+OBS: Se abrir diretamente no navegador (file://), a legenda pode não aparecer por bloqueios do navegador. 
+Para contornar esse bloqueio sem depender do Live Server, seria necessário usar 
+ alternativas que ainda não fazem parte do conteúdo que aprendemos na disciplina, 
+ por isso optei por essa solução mais adequada dentro do que foi ensinado.
+

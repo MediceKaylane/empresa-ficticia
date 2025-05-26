@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background: #ffffff;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    z-index: 1;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 15px;
+}
+
+nav ul li a {
+    color: rgb(64, 64, 64);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color:rgb(64, 139, 205)
+}
+
+.navbar img {
+    height: 40px;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+.icon {
+    border-radius: 10px;
+}
+
+.contato {
+    background-color: #e6e1e1;
+    color: rgb(64, 64, 64);
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+.titulo h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  position: relative;
+  top: -40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin:0cqmax;
+
+}
+
+ form label[for="email"], label[for="nome"], label[for="mensagem"]  {
+    text-align: left;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #222;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 300px;
+}
+
+form button:hover {
+    background: #659db1;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 30px;
+  }
+
+footer {
+    background: #040303;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li a {
+    color: #675757;
+}
+
+.navbar-brand {
+    font-family: 'Inter', sans-serif;
+    color:#887878;
+    font-weight: 500;
+}
+
+.form-check-label a {
+    color: #444;
+}  
+
+.form-check-label a:hover{
+    color: #659db1;
+}  
+
+
+
+
+
+
