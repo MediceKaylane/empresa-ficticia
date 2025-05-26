@@ -1,6 +1,6 @@
 # Empresa Fictícia
 
-Este é o projeto da empresa fictícia, desenvolvido para aprendizado.
+Este é o projeto de uma empresa fictícia, desenvolvido para aprendizado.
 
 ## Descrição
 
