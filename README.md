@@ -18,4 +18,4 @@ Para visualizar o site, abra os arquivos HTML no seu navegador.
 
 ---
 
-Feito por Kaylane Medice.
+
